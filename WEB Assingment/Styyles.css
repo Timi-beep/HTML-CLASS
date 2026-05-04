@@ -1,0 +1,25 @@
+*,
+*::before
+*::after{box-sizing: border-box;
+margin: 0;
+padding: 0}
+
+.heading{display: flex;
+justify-content: center;}
+.subhead{display: flex;
+justify-content: center;}
+ 
+.card-profile{
+    width: 300px;
+    height: 600px;
+    border: 1px solid #ccc;
+}
+
+.card-profile .card-img{
+    width: 300px;
+    height: 290px;
+    border: 5px solid blue;
+    overflow: hidden;
+}
+
+.card-profile .card-img img{width: 100%;}
